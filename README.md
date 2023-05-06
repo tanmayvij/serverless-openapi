@@ -3,6 +3,8 @@
 [![NPM](https://img.shields.io/npm/v/@conqa/serverless-openapi-documentation.svg)](https://npmjs.org/packages/@conqa/serverless-openapi-documentation/)
 [![Travis CI](https://img.shields.io/travis/conqa/serverless-openapi-documentation.svg)](https://travis-ci.org/conqa/serverless-openapi-documentation)
 
+> This repo is forked from [theodo/serverless-openapi](https://github.com/theodo/serverless-openapi) and implements support for adding security at endpoint-level, which was missing in the original project.
+
 Generates [**OpenAPI 3.0.0**](https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/3.0.0.md) documentation from serverless configuration files. OpenAPI is formerly known as Swagger. The configuration is inspired by the format used in [serverless-aws-documentation](https://www.npmjs.com/package/serverless-aws-documentation). This plugin takes over [serverless-openapi-documentation](https://www.npmjs.com/package/serverless-openapi-documentation), which was no longer maintained. It aims to provide improvements, and especially adds support for API Gateway's [HTTP Apis](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html).
 
 Works well with [ReDoc](https://github.com/Rebilly/ReDoc).

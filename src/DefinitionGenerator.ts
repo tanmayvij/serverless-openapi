@@ -147,6 +147,10 @@ export class DefinitionGenerator {
       operationObj.tags = documentationConfig.tags;
     }
 
+    if (documentationConfig.security) {
+      operationObj.security = documentationConfig.security;
+    }
+
     if (documentationConfig.deprecated) {
       operationObj.deprecated = true;
     }
