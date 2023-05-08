@@ -1,19 +1,24 @@
 {
   "name": "serverless-openapi-security",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "Serverless plugin to generate OpenAPI V3 documentation from serverless configuration. Implements support for endpoint-level security.",
   "main": "index.js",
   "engines": {
     "node": ">=6.0.0",
     "npm": ">=3.8.6"
   },
+  "files": [
+    "build/*",
+    "build/**/*"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/theodo/serverless-openapi.git"
+    "url": "https://github.com/tanmayvij/serverless-openapi.git"
   },
   "bugs": "https://github.com/theodo/serverless-openapi/issues",
   "author": "Abilio Henrique <abilio.henrique@temando.com>",
   "contributors": [
+    "Tanmay Vij <tanmay.vij@softobotics.com>",
     "Abilio Henrique <abilio.henrique@temando.com>",
     "nfour <novus.nfour@gmail.com>",
     "Alexandre Pernin <alex.e.pernin@gmail.com>"
